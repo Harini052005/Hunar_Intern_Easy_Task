@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: static;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 40px 0px;
+}
+
+.navbar ul li{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 840px;
+    justify-content: center;
+    color: white;
+    font-size: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("./bg.jpg") no-repeat center center/cover;
+    height: 850px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    top: 25%;
+    align-items: center;
+     
+    position: absolute;
+}
+
+.headingss{
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.headingss span{
+    color: yellow;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid;
+    outline: none;
+    transition: .6s ease; 
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white, 0 0 10px white, 0 0 15px white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* about section */
+
+#about{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 50px;
+   background-color: grey;
+}
+
+.heading-aboutme{
+    color: yellow;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+}
+
+#intro{
+    padding: 5px;
+}
+#intro h2{
+    font-size: 2rem; 
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro p{
+    font-weight: 400;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.heading-portfolio{
+    color: yellow;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    padding: 10px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send{
+    padding: 10px;
+    width: 15%;
+    margin: 15px;
+    border: none;
+    outline: none;
+    transition: .6s ease; 
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+.heading-contact{
+    color: yellow;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+}
+

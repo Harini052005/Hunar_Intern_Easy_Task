@@ -1,0 +1,25 @@
+.headingss, .heading-about, .heading-portfolio, .heading-contact{
+    font-size: 2.5rem;
+}
+
+ .navbar ul{
+    flex-wrap: wrap;
+ 
+}
+
+#intro h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.input{
+    width: 60%;
+}
+
+#msg{
+    width: 55%;
+}
+
+#send{
+    width: 20%;
+}
